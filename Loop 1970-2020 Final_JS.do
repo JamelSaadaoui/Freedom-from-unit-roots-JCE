@@ -328,7 +328,7 @@ drop if id == `j'
 sort id Year
 by id: gen y = _n
 xtset id y , del(1)
-xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1)   bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1) //  bootstrap(500)
 
 	
 
@@ -410,7 +410,7 @@ drop if id == `j'
 sort id Year
 by id: gen y = _n
 xtset id y , del(1)
-xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1)   bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1) //  bootstrap(500)
 
 
 *EFW and Deliberative Components*
@@ -490,6 +490,6 @@ drop if id == `j'
 sort id Year
 by id: gen y = _n
 xtset id y , del(1)
-xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1)   bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1)   // bootstrap(500)
  
  

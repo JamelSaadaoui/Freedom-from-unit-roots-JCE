@@ -271,8 +271,8 @@ sort id year
 by id: gen y = _n
 xtset id y , del(1)
 
-xtwest $EFW $democ1, constant lrwindow(3) lags(3) leads(3) bootstrap(500)
-xtwest $EFW $democ1, constant lrwindow(3) lags(1 5) leads(1 5) bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(3) leads(3) // bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(1 5) leads(1 5) // bootstrap(500)
 
  
 *Kof and Deliberative*
@@ -355,5 +355,5 @@ sort id year
 by id: gen y = _n
 xtset id y , del(1)
 
-xtwest $EFW $democ1, constant lrwindow(3) lags(3) leads(3) bootstrap(500)
-xtwest $EFW $democ1, constant lrwindow(3) lags(1 5) leads(1 5) bootstrap(5)
+xtwest $EFW $democ1, constant lrwindow(3) lags(3) leads(3) // bootstrap(500)
+xtwest $EFW $democ1, constant lrwindow(3) lags(1 5) leads(1 5) // bootstrap(500)

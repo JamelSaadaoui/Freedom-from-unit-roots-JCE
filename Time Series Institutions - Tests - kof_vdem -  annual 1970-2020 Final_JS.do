@@ -22,11 +22,11 @@ global democ2 v2x_delibdem
  mat EFW1 = (cd_t\ cd_p)
  mat list EFW1
  
-    xtcd2 $EFW2, noest
- mat cd_t = r(CD)
- mat cd_p = r(p)
- mat EFW2 = (cd_t\ cd_p)
- mat list EFW2
+//     xtcd2 $EFW2, noest
+//  mat cd_t = r(CD)
+//  mat cd_p = r(p)
+//  mat EFW2 = (cd_t\ cd_p)
+//  mat list EFW2
  
  
  xtcd2 $democ1, noest
