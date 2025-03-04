@@ -416,7 +416,7 @@ xtwest $EFW $democ1, constant lrwindow(3) lags(1) leads(1) //  bootstrap(500)
 *EFW and Deliberative Components*
 
 clear
-cd "G:\My Drive\Research Paper\Cointegration\Data"
+*cd "G:\My Drive\Research Paper\Cointegration\Data"
 use balanced_efwvdem19702020_5.dta
 sort Countries Year
 encode Countries, gen(id)
@@ -424,7 +424,7 @@ xtset id Year , del(5)
 
 *Set Variables* 
 global EFW Summary
-global democ1 v2xdl_delib
+global democ1 v2x_delibdem
 
 
 local var 5	42	53	12	44	32	37	23	25	6	63	29	54	21	24	59	13	17	45	41	19	48	70	28	8	62	68	4	79	33	36	75	46	60	16	38	65	30	63	33	27	21	46	20	23	42	69	8	65
